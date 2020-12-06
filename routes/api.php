@@ -23,3 +23,4 @@ Route::get('/contacts/{contact}', 'App\Http\Controllers\ContactsController@show'
 Route::post('/contacts', 'App\Http\Controllers\ContactsController@store');
 Route::put('/contacts/{contact}', 'App\Http\Controllers\ContactsController@update');
 Route::delete('/contacts/{contact}', 'App\Http\Controllers\ContactsController@destroy');
+
